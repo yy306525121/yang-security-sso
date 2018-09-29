@@ -1,12 +1,12 @@
-package cn.codeyang.sso;
+package cn.codeyang;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class YangSecuritySsoApplication {
+public class YangSsoServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(YangSecuritySsoApplication.class, args);
+        SpringApplication.run(YangSsoServerApplication.class, args);
     }
 }
